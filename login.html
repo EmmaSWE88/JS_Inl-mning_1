@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/55aca9f777.js"></script>
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+
+    <!--LOGIN FORM-->
+    <div class="container rounded mt-5 mb-5 pb-3 vh-100 col-10 col-md-5">
+        <div class="form-text-box bg-light rounded mb-4 border border-primary">
+            <h1 class="display-5 pt-2 font-weight-bold">Logga In</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, numquam!</p>
+            <p class="font-weight-bold">Välkommen!</p>
+        </div>
+
+        <form id="loginForm"class="pt-5 pb-5 border border-primary rounded bg-light">
+            <div class="form-group col-12">
+                <label for="inputEmail">E-post:</label>
+                <input type="email" class="form-control border border-primary" id="loginEmail" placeholder="Skriv in din e-postadress">
+                <div class="invalid-feedback">Detta är ett obligatoriskt fält!</div>
+            </div>
+            <div class="form-group col-12">
+                <label for="loginPassword">Password</label>
+                <input type="password" class="form-control border border-primary" id="loginPassword" placeholder="Fyll i ditt lösenord">
+                <div class="invalid-feedback">Detta är ett obligatoriskt fält!</div>
+            </div>
+            <div class="form-group ml-md-1 col-10">
+                <div class="btn-submit-box">
+                    <button id="loginBtn" type="submit" class="btn btn-primary mt-2 mb-2">LOGGA IN</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+        
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="login.js"></script>
+    </body>
+    </html>

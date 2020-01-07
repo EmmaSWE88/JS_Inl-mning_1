@@ -1,0 +1,34 @@
+/* CSS Google Font  */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+/* CSS Google Font end  */
+
+body {
+    background-image: linear-gradient(to top right, #17a2b8, #e694e1);
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+.form-text-box {
+    text-align: center;
+    padding: 1rem;
+}
+
+.link-style {
+    color:#000;
+}
+.nav-link {
+    color:#fff;
+}
+
+#accountCheck {
+    font-size: 1rem;
+}
+
+#accountCheck a {
+    color: #fff;
+}
